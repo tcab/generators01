@@ -13,7 +13,9 @@ def gen3(n):
         yield(i+1)
 
 def fibonacci():
-    """Fibonacci numbers generator"""
+    """Fibonacci numbers generator
+        from http://www.python-course.eu/generators.php
+    """
     a, b = 0, 1
     while True:
         yield a
